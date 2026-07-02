@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = ['portfolio-project-production-f75b.up.railway.app', 'localhost', '127.0.0.1']
-
+CSRF_TRUSTED_ORIGINS = ['https://portfolio-project-production-f75b.up.railway.app']
 
 # Application definition
 
